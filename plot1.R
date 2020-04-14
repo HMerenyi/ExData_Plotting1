@@ -9,5 +9,5 @@ hist(df$Global_active_power, col = "red", main = "Global Active Power", cex.axis
      xlab = "Global Active Power (kilowatts)")
 
 #saving to png
-png(filename = "plot1.png")
+png(filename = "plot1.png", width = 480, height = 480)
 dev.off()
